@@ -5,7 +5,11 @@
 }
 
 :root {
-    background-color: rgb(225, 193, 255);
+    background-color: #0f0e17;
+    --text-color_orange: #ff8b07;
+    --text-color-pink: #e93172;
+    --text-color-white: #e6e6e6;
+
 }
 
 .box {
@@ -20,6 +24,7 @@
     border: 5px solid black;
     border-radius: 10px;
     padding: 10px;
+    margin-top: 30px;
 }
 
 .debug {
@@ -33,6 +38,22 @@
     width: calc(100% / 2);
 }
 
+.pink-text{
+    color: var(--text-color-pink);
+}
+.orange-text {
+    color: var(--text-color);
+}
+
+div>p {
+    color: var(--text-color-white);
+}
+
+div>h3 {
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--text-color_orange);
+}
 
 .clearfix:after {
     content: "";
