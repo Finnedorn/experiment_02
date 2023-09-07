@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    background-color: rgb(225, 193, 255);
+}
+
+.box {
+    background-color: yellowgreen;
+    border-radius: 10px;
+    width: calc(100% / 3);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.debug {
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contenitorino {
+    width: calc(100% / 2);
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.pull-left {
+    float: left;
+}
+
+.box-02 {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+}
